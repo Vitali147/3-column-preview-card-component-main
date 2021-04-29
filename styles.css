@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  height: auto;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  background: #f2f2f2;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  color: #f2f2f2;
+  margin-top: 30px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+}
+
+.container {
+  margin: auto;
+  width: 328px;
+  position: absolute;
+  border-radius: 8px;
+  overflow: hidden;
+  left: 50%;
+  margin-left: -164px;
+  margin-top: 88px;
+  padding-bottom: 88px;
+}
+
+.box1 {
+  background: #e38826;
+}
+
+.box2 {
+  background: #006970;
+}
+
+.box3 {
+  background: #004241;
+  border-radius: 0 0 8px 8px;
+}
+
+.card {
+  padding: 3rem;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+}
+
+.button1 {
+  color: #e38826;
+}
+
+.button2 {
+  color: #006970;
+}
+
+.button3 {
+  color: #004241;
+}
+
+@media only screen and (min-width: 1040px) {
+  .container {
+    margin: auto;
+    width: 915px;
+    position: absolute;
+    border-radius: 8px;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 0;
+  }
+
+  .box {
+    float: left;
+    width: 305px;
+  }
+
+  .box3 {
+    border-radius: 0;
+  }
+
+  .button {
+    margin-top: 70px;
+  }
+
+  .button:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: rgba(0, 0, 0, 0.0);
+    border: solid 2px hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+  }
+}
